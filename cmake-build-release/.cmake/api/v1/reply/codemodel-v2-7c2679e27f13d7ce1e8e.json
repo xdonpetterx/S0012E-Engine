@@ -1,0 +1,401 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "exts",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-exts-Release-47c3398cee991796348b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exts",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "exts/flatbuffers",
+					"jsonFile" : "directory-exts.flatbuffers-Release-44e04f0737fbef3309c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "exts/flatbuffers"
+				},
+				{
+					"build" : "exts/glm",
+					"jsonFile" : "directory-exts.glm-Release-46dff056a27b362c677c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "exts/glm",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "exts/enet",
+					"jsonFile" : "directory-exts.enet-Release-1919aab41460500c42bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "exts/enet",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "exts/soloud/contrib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-exts.soloud.contrib-Release-dda79de2c79e3eeabd60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "exts/soloud/contrib",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "exts/glew",
+					"jsonFile" : "directory-exts.glew-Release-02f4fd1e2faeb071f0c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "exts/glew",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "exts/glfw",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-exts.glfw-Release-900a36c47712aa177352.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "exts/glfw"
+				},
+				{
+					"build" : "exts/glfw/src",
+					"jsonFile" : "directory-exts.glfw.src-Release-eaba0fb8309f44642ec6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "exts/glfw/src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "engine",
+					"childIndexes" : 
+					[
+						10,
+						11
+					],
+					"jsonFile" : "directory-engine-Release-776e2b00c6520ab49d05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "engine"
+				},
+				{
+					"build" : "engine/core",
+					"jsonFile" : "directory-engine.core-Release-ff96e0131c02da5ed3c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "engine/core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "engine/render",
+					"jsonFile" : "directory-engine.render-Release-43ace2bbcfa106f170ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "engine/render",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "projects",
+					"childIndexes" : 
+					[
+						13
+					],
+					"jsonFile" : "directory-projects-Release-e37290e84ffc757481da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "projects"
+				},
+				{
+					"build" : "projects/spacegame",
+					"jsonFile" : "directory-projects.spacegame-Release-f7d080e2febfbd25c5a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 5,
+					"source" : "projects/spacegame",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "spaceengine",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "enet",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SoLoud",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "spacegame",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 10,
+					"id" : "core::@daec77c92998606c5111",
+					"jsonFile" : "target-core-Release-b455e9fe941fe66f66b3.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "enet::@17b0f0bcd585569d6158",
+					"jsonFile" : "target-enet-Release-8d5b395a9ced6e1ca37c.json",
+					"name" : "enet",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glew::@710e69b0c5555f599eaa",
+					"jsonFile" : "target-glew-Release-665e50e1b61b5f0da1c4.json",
+					"name" : "glew",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "glfw::@766e2fc5a7847ac43afc",
+					"jsonFile" : "target-glfw-Release-6ec3dcc595d41063a49f.json",
+					"name" : "glfw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glm_static::@ee42a965c51c5731a27c",
+					"jsonFile" : "target-glm_static-Release-3b1c3f23e0cfb017cb2f.json",
+					"name" : "glm_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@91fdfbc389eb79cc7eac",
+					"jsonFile" : "target-imgui-Release-e94e815a1433681efb9a.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "render::@d03e0f9399c2d8dcbd5e",
+					"jsonFile" : "target-render-Release-56b831b9134eacded73d.json",
+					"name" : "render",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "soloud::@bafaba1d49ba3159c911",
+					"jsonFile" : "target-soloud-Release-97dc87eaa5bb69402a64.json",
+					"name" : "soloud",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "spacegame::@6e6855452a75ec6421bb",
+					"jsonFile" : "target-spacegame-Release-2dfb7388c5921c4f91ae.json",
+					"name" : "spacegame",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Dev/S0012E/Assignment4/S0012E-Engine/cmake-build-release",
+		"source" : "C:/Dev/S0012E/Assignment4/S0012E-Engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

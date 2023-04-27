@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Dev/S0012E/Assignment4/S0012E-Engine/cmake-build-debug/projects/spacegame/CMakeFiles/spacegame.dir/embed.manifest"

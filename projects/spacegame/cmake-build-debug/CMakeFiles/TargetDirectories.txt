@@ -1,0 +1,3 @@
+C:/Dev/S0012E/Assignment4/S0012E-Engine/projects/spacegame/cmake-build-debug/CMakeFiles/spacegame.dir
+C:/Dev/S0012E/Assignment4/S0012E-Engine/projects/spacegame/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Dev/S0012E/Assignment4/S0012E-Engine/projects/spacegame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
